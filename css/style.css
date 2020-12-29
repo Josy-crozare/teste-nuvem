@@ -1,0 +1,215 @@
+body{
+    font-family: Calibri;
+    font-size: 20px;
+    color:  rgb(68, 68, 68);
+}
+
+img{
+    max-width: 100%;
+}
+
+img, p {
+    display: inline-block;
+}
+
+.a {
+    text-decoration: underline ;
+    color: rgb(49, 49, 49);
+}
+
+.cabecalho {
+    width: 100%; 
+    float: center;
+    margin-top: 0;
+}
+
+.logo {
+    width: 200px; 
+    height: 56px; 
+    float: left; 
+    background: url(logoPreto.png) center center/200px no-repeat; 
+    font-size: 0;
+}
+
+.figureIndex {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    height: 50%;;
+}
+
+.figureIndex figcaption {
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+.polaroid {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.polaroid:hover {
+    box-shadow: 5px 5px 10px rgb(49, 49, 49);
+    zoom: 103%;
+}
+
+.titulo {
+    font-family: Calibri;
+    font-size: 30px;
+    color: rgb(83, 85, 87);
+}
+
+.h2 {
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-family: Calibri;
+    font-size: 25px;
+    color: black;
+}
+
+div #teste{
+    text-align: left;
+}
+.fieldset{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 17px;
+    padding: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.fieldsetContato {
+    background-color: #f5f4f4;
+    background-position: center;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.buttonEnviar {
+    border-color: #696a6b;
+    border-radius: 0;
+    background-color: #8e9196;
+    font-size: 15px;
+    font-family: Verdana;
+    padding: 10px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+}
+
+.buttonEnviar:hover {
+  color: #fff;
+}
+
+#nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+     position: relative;
+}
+
+#menu {
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar .navbar-nav {
+    display: inline-flex;
+    float: none !important;
+}
+
+.navbar .navbar-collapse {
+    margin-left: 30%;   
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 1000px 200px 200px ;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    background-color: gray;
+    padding: 5px;
+}
+
+
+.item1 {
+  grid-column: 1 / 6;
+  padding: 0;
+  text-align: center;
+}
+
+.item2 {
+  border: 1px solid black;
+}
+
+.item3 {
+  border: 1px solid black;
+}
+
+#map-canvas {
+   width: 700px;
+   height: 500px;
+   padding: 10px;
+}
+
+#titulo_container {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.titulo_marcador {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.endereco_marcador {
+    font-family: Verdana;
+    font-size: 12px;
+
+}
+
+#telefone {
+    font-family: Verdana;
+}
+
+.img_contato {
+    padding: 10px;
+    border: 0;
+    width: 70px;
+    height: 70px;
+}
+.div_contato {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
